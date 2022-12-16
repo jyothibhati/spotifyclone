@@ -150,6 +150,22 @@ nav ul li{
    .timestamp{
       margin: 0 11px;
    }
-   
+     .songItem img{
+      width: 20px;
+      margin: 0 11px;
+      border-radius: 15px;
+   }
+   .container{
+      min-height: 35vh;
+      background-color: black;
+      color: white;
+      font-family: 'Verela Round', sans-serif;
+      display: flex;
+      margin: 11px auto;
+      width: 70%;
+      border-radius: 6px;
+      padding: 15px;
+      background-image: url('bg1.jpg');
+   }
 }
  
