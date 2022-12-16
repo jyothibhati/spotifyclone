@@ -114,4 +114,42 @@ nav ul li{
      background-color: red;
    }
  }
+ @media screen and (max-width: 600px) {
+   .songItemContainer{
+      margin-top: 32px;
+   }
+   songItem{
+      height: 30px; 
+      display: flex;
+      margin: 5px 0;
+      justify-content: space-between;
+      align-items:left;
+      border-radius: 13px;
+   } 
+   .timestamp{
+      margin: 0 11px;
+   }
+   .songInfo{
+      position: absolute;
+      left: 5vw; 
+   }
+   #myProgressBar{
+      width: 50vw;
+      cursor: pointer;
+   }
+   .icons{
+      margin-top: 5px;
+   }
+   .bottom{
+      bottom: 0;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .timestamp{
+      margin: 0 11px;
+   }
+   
+}
  
