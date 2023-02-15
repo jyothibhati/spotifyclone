@@ -8,6 +8,12 @@ body{
     margin:0;
     padding:0;
 }
+.Top-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 nav{
     font-family: 'Ubuntu', sans-serif;
@@ -48,6 +54,8 @@ nav ul li{
     border-radius: 12px;
     padding: 34px;
     background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
  .bottom{
@@ -64,12 +72,14 @@ nav ul li{
 
  .icons{
     color: white;
-    margin-top: 14px;
+    /* margin-top: 14px; */
  }
  .icons i{
+   padding: 6px 3px 8px 23px;
     cursor: pointer;
  }
  #myProgressBar{
+   margin-top: 1rem;
     width: 80vw;
     cursor: pointer;
  }
@@ -137,12 +147,9 @@ nav ul li{
       width: 50vw;
       cursor: pointer;
    }
-   .icons{
-      margin-top: 5px;
-   }
    .bottom{
       bottom: 0;
-      height: 75px;
+      height: 96px;
       display: flex;
       justify-content: center;
       flex-direction: column;
